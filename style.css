@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul#menu{
+    width: 40px;
+    margin: auto;
+}
+
+#conteudo {
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 25%;
+    padding: 50px;
+    margin: auto;
+   
+}
+
+#conteudo > img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#contact > form {
+    display: grid;
+    grid-template-columns: 100px 300px 0px;
+}
+#contact > form > label{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#contact > form > input {
+    display: inline-block;
+    margin-top: 2px;
+}
+#contact > form > textarea {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+#contact > form > button{
+    margin-top: 10px;
+    padding: 10px;
+}
